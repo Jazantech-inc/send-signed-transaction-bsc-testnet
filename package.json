@@ -1,0 +1,20 @@
+{
+    "name": "project7",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "sendTransaction:run": "forever --spinSleepTime 5000 main.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "ethereumjs-common": "^1.5.2",
+      "ethereumjs-tx": "^2.1.2",
+      "forever": "^4.0.3",
+      "web3": "^1.7.5"
+    }
+  }
+  
